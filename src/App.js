@@ -10,7 +10,6 @@ class App extends Component {
       {name: 'Crystal', age: 25, belt:'black', id:3},
     ]
   }
-
   addNinja =(ninja) =>{
     ninja.id = Math.random();
    let ninjas = [...this.state.ninjas, ninja]
